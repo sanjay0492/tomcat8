@@ -4,8 +4,6 @@ MAINTAINER "mahinder@gmail.com"
 
 #LABEL "Mahinder Singh"
 
-RUN yum update -y
-
 RUN yum install java-devel net-tool netstat vim bind-utils -y
 
 COPY Dockerfile  /root/
